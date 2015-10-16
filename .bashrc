@@ -131,3 +131,7 @@ export PATH="$PATH:$HOME/usr/local/bin"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Make Vim default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
