@@ -15,3 +15,7 @@ set encoding=utf-8
 set nowrap
 "Sets pathogen to load plugins
 execute pathogen#infect()
+"Enable 256 colors
+set t_Co=256
+"Set color scheme
+colors harlequin
